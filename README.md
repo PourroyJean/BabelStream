@@ -101,8 +101,7 @@ For example:
 ```
 Alternatively, refer to the [CI script](./ci-test-compile.sh), which test-compiles most of the models, and see which flags are used there.
 
-*It is recommended that you delete the `build` directory when you change any of the build flags.* 
-
+*It is recommended that you delete the `build` directory when you change any of the build flags. In most cases, it is sufficient to run `cmake clean`.*
 ### GNU Make
 
 We have supplied a series of Makefiles, one for each programming model, to assist with building.
